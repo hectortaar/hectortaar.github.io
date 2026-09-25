@@ -61,3 +61,24 @@ footer{padding:25px 0;color:#778493;font-size:12px;text-align:center;border-top:
  section{padding:52px 0}.metrics,.grid,.projects,.exec-grid{grid-template-columns:1fr}
  .hero{padding:55px 0}.project-meta{grid-template-columns:1fr}
 }
+
+.language-switch{display:flex;justify-content:flex-end;gap:6px;margin-bottom:10px}.lang-btn{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45);padding:7px 10px;border-radius:6px;font-size:12px;font-weight:800;cursor:pointer}.lang-btn.active{background:#fff;color:#123654;border-color:#fff}.language-switch+.eyebrow{margin-top:8px}
+
+.project-samples-section{background:#f5f7fa}
+.sample-tabs{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 20px}
+.sample-tab{border:1px solid #cbd5e1;background:#fff;color:#132238;padding:12px 18px;border-radius:10px;font-weight:700;cursor:pointer}
+.sample-tab.active{background:#132238;color:#fff;border-color:#132238}
+.sample-tab span{opacity:.7;margin-left:5px}
+.project-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.sample-card{background:#fff;border:1px solid #dbe2ea;border-radius:14px;box-shadow:0 5px 18px rgba(19,34,56,.06);overflow:hidden}
+.sample-card summary{list-style:none;cursor:pointer;padding:20px;display:flex;justify-content:space-between;gap:16px;align-items:flex-start}
+.sample-card summary::-webkit-details-marker{display:none}
+.sample-card summary:after{content:'+';font-size:22px;line-height:1;color:#52708f}
+.sample-card[open] summary:after{content:'−'}
+.sample-card small{color:#52708f;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.sample-card h3{margin:6px 0 0;color:#132238}
+.sample-role{font-size:.84rem;color:#64748b;text-align:right;white-space:nowrap}
+.sample-body{border-top:1px solid #e5e7eb;padding:18px 20px 20px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.sample-body b{color:#132238;font-size:.9rem}.sample-body p{margin:6px 0 0;color:#475569;line-height:1.55}
+.sample-note{margin-top:20px;font-size:.88rem;color:#64748b}
+@media(max-width:800px){.project-grid{grid-template-columns:1fr}.sample-body{grid-template-columns:1fr}.sample-role{white-space:normal}}

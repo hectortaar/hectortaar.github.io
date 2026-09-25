@@ -1,11 +1,15 @@
-# Héctor Tarazona Portfolio
+# Hector Tarazona Portfolio
 
 One-page professional portfolio hosted on GitHub Pages.
 
-## Edit the site
-- `index.html`: edit text, sections, metrics, links, and portfolio content.
-- `style.css`: edit colors, typography, spacing, layout, and responsive behavior.
+## Files
+- `index.html` — portfolio content and EN/ES language switch.
+- `style.css` — visual design.
+- `CV_HTarazona_2026_Executive_EN.pdf` — consolidated English CV.
+- `CV_HTarazona_2026_Executive_ES.pdf` — consolidated Spanish CV.
 
-## GitHub Pages
-Repository: `hectortaar.github.io`
-Expected public URL: `https://hectortaar.github.io/`
+## Editing
+Edit `index.html` for content/sections and `style.css` for visual design. Commit changes to the `main` branch and GitHub Pages will redeploy the site.
+
+## Links
+Credly and LinkedIn links are configured in `index.html` and can be changed there.
